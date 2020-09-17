@@ -5,7 +5,7 @@ import axios from 'axios'
 import './App.css';
 
 
-const QUOTE_SERVICE_URL = 'https://newsapi.org/v2/sources?language=en&country=us&apiKey=d62fe0c82b344e0';
+const QUOTE_SERVICE_URL = 'http://http://localhost:8000/news';
 
 class App extends Component {
   constructor(props) {
